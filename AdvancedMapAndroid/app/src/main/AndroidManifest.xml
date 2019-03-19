@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.carto.advancedmap"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.carto.advancedmap" >
 
-    <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -50,7 +45,6 @@
         <activity android:name=".sections.other.CaptureActivity" />
         <activity android:name=".sections.other.CustomPopupActivity" />
         <activity android:name=".sections.other.GPSLocationActivity" />
-x
     </application>
 
 </manifest>
