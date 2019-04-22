@@ -24,6 +24,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.carto:carto-mobile-sdk:4.1.4@aar'
+//    implementation 'com.carto:carto-mobile-sdk:4.1.4@aar'
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation (name:'ignis-carto', ext:'aar')
 }
